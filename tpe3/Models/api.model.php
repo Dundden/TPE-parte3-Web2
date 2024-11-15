@@ -36,6 +36,9 @@ class ApiModel {
                 case 'fecha_devolucion':
                     $sql .= ' ORDER BY fecha_devolucion' . " " . $direction;
                     break;
+                case 'devuelto':
+                    $sql .= ' ORDER BY devuelto' . " " . $direction;
+                    break;
             }
         }
 
